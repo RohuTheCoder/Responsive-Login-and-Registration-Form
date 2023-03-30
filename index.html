@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Login and Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinBx ">
+                <div class="imgBx">
+                    <img src="img/img1.jpg" alt="railway-line1"/>
+                </div>
+                <div class="formBx">
+                    <form action="" onsubmit="return false;">
+                       <h2>Sign In</h2> 
+                       <input type="text" name="name" placeholder="Username" />
+                       <input type="password" name="psw" placeholder="Password" />
+                       <input type="submit" name="submit" value="Login" />
+                       <p class="signup">Don't have an account ?
+                         <a href="#" onclick="toggleForm();">Sign Up.</a>
+                       </p>
+                    </form>
+                </div>
+            </div>
+            <div class="user signupBx">
+                <div class="formBx">
+                    <form action="" onsubmit="return false;">
+                        <h2>Create an account</h2>
+                        <input type="text" name="name" placeholder="Username" />
+                        <input type="email" name="email" placeholder="Email Address" />
+                        <input type="password" name="psw" placeholder="Create Password" />
+                        <input type="password" name="psw-confirm" placeholder="Confirm Password" />
+                        <input type="submit" name="submit" value="Sign Up" />
+                        <p class="signup">Already have an account ?
+                            <a href="#" onclick="toggleForm();">Sign in.</a></p>              
+                    </form>
+                </div>
+                <div class="imgBx">
+                    <img src="img/img2.jpg" alt="railway-line2" />
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <script  src="./script.js"></script>
+</body>
+</html>
